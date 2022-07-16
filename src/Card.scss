@@ -1,0 +1,38 @@
+.about-wrapper {
+  margin-top: 45px;
+  border-radius: 20px;
+  width: 50%;
+  height: 530px;
+  margin-left: 600px;
+  padding: 7px;
+  overflow: hidden;
+  @media (min-width: 1260px) and (max-width: 1400px) {
+    margin-left: 450px;
+  }
+  @media (max-width: 1260px) {
+    margin-left: 400px;
+  }
+  &__dark {
+    background-color: white;
+  }
+  &__light {
+    background-color: #424242;
+  }
+  &__text {
+    padding: 0 30px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    &__dark {
+      color: black;
+      background-color: white;
+    }
+    &__light {
+      color: white;
+      background-color: #424242;
+    }
+  }
+}

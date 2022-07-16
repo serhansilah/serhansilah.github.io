@@ -1,0 +1,81 @@
+.tabs-wrapper {
+  flex-direction: column;
+  width: 25%;
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  position: fixed;
+  overflow: hidden;
+  &__avatar {
+    width: 100px;
+    height: 120px;
+    border-radius: 100%;
+    box-shadow: var(--shadow-l1);
+    margin-left: 30px;
+    &__dark {
+      border: 2px solid white;
+    }
+    &__light {
+      border: 2px solid white;
+    }
+  }
+  &__icon {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    &__dark {
+      fill: black;
+    }
+    &__light {
+      fill: white;
+    }
+  }
+  &__text {
+    width: 80%;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    padding: 0 10px;
+    &__dark {
+      color: black;
+    }
+    &__light {
+      color: white;
+    }
+  }
+  &__name {
+    font-size: 20px;
+    cursor: pointer;
+    height: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+    &__dark {
+      color: black;
+    }
+    &__light {
+      color: white;
+    }
+  }
+  &__job {
+    font-size: 17px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    &__dark {
+      color: black;
+    }
+    &__light {
+      color: white;
+    }
+  }
+}
+
+body,
+html {
+  margin: 0;
+}

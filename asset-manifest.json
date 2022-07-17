@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.86faca20.css",
+    "main.js": "/static/js/main.22533c36.js",
+    "static/media/webapp.png": "/static/media/webapp.8e8905983c6589d9bee8.png",
+    "static/media/robot.jpg": "/static/media/robot.4f616ee6fa4fb12d2908.jpg",
+    "static/media/cv.pdf": "/static/media/cv.262f85616a5f79160c20.pdf",
+    "static/media/airbnb.jpg": "/static/media/airbnb.1c81b1b7e9c3f7cacd6e.jpg",
+    "static/media/cycle.png": "/static/media/cycle.5486de5a2d3b008d9ee6.png",
+    "static/media/profile.jpg": "/static/media/profile.49c6ffdf99172370e547.jpg",
+    "static/media/kaggle.png": "/static/media/kaggle.dff21ed630de484d7540.png",
+    "static/media/CSR-and-DCSR-formats.png": "/static/media/CSR-and-DCSR-formats.d40bb2ea305a7bb05b3d.png",
+    "static/media/home.svg": "/static/media/home.be455e753bd5b070134e62d4e9c8b35e.svg",
+    "static/media/resume.svg": "/static/media/resume.a7aa65225f2ac3fea799231ba3614c21.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.5e6b079e54e6ecdc61795aa5e11108e6.svg",
+    "static/media/email.svg": "/static/media/email.6727b6c18ac45b9aa7b3eea9c7603019.svg",
+    "static/media/switch.svg": "/static/media/switch.fe3eb65a657d72b4b8f12f8f2b4ecf90.svg",
+    "static/media/kaggle.svg": "/static/media/kaggle.0260cfd4efa7be552a509637f94189d6.svg",
+    "static/media/projects.svg": "/static/media/projects.184b7398c3aecef6fa75a02a688e0bb9.svg",
+    "index.html": "/index.html",
+    "static/media/github.svg": "/static/media/github.1f8893e6f18b61b6ca02dbef14780261.svg",
+    "main.86faca20.css.map": "/static/css/main.86faca20.css.map",
+    "main.22533c36.js.map": "/static/js/main.22533c36.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86faca20.css",
+    "static/js/main.22533c36.js"
+  ]
+}

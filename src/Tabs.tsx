@@ -78,6 +78,7 @@ const Tabs = () => {
       nav: 'mailto:serhansilahyurekli@gmail.com',
     },
   ];
+
   const [selectedTab, setSelectedTab] = useState(tabs[0].body);
 
   return (

@@ -92,12 +92,12 @@ const Projects = ({ switchMode }: any) => {
             style={
               switchMode === 'light'
                 ? {
-                    backgroundColor: '#424242',
+                    backgroundColor: 'white',
                     borderRadius: '20px',
                     marginBottom: '40px',
                   }
                 : {
-                    backgroundColor: 'white',
+                    backgroundColor: '#424242',
                     borderRadius: '20px',
                     marginBottom: '40px',
                   }
@@ -115,14 +115,14 @@ const Projects = ({ switchMode }: any) => {
                       flexDirection: 'row',
                       display: 'flex',
                       alignItems: 'center',
-                      backgroundColor: '#424242',
+                      backgroundColor: 'white',
                       borderRadius: '20px',
                     }
                   : {
                       flexDirection: 'row',
                       display: 'flex',
                       alignItems: 'center',
-                      backgroundColor: 'white',
+                      backgroundColor: '#424242',
                       borderRadius: '20px',
                     }
               }
@@ -145,8 +145,8 @@ const Projects = ({ switchMode }: any) => {
               <a
                 style={
                   switchMode === 'light'
-                    ? { backgroundColor: '#424242' }
-                    : { backgroundColor: 'white' }
+                    ? { backgroundColor: 'white' }
+                    : { backgroundColor: '#424242' }
                 }
                 href={proj.nav}
                 target="_blank"

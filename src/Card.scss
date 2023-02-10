@@ -3,7 +3,7 @@
   border-radius: 20px;
   width: 50%;
   height: 530px;
-  margin-left: 600px;
+  margin-left: 500px;
   padding: 7px;
   overflow: hidden;
   @media (min-width: 1260px) and (max-width: 1400px) {
@@ -12,10 +12,10 @@
   @media (max-width: 1260px) {
     margin-left: 400px;
   }
-  &__dark {
+  &__light {
     background-color: white;
   }
-  &__light {
+  &__dark {
     background-color: #424242;
   }
 
@@ -26,11 +26,11 @@
     text-decoration: none;
     border-radius: 20px;
     margin-bottom: 50px;
-    &__dark {
+    &__light {
       color: black;
       background-color: white;
     }
-    &__light {
+    &__dark {
       color: white;
       background-color: #424242;
     }

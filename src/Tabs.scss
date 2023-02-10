@@ -7,15 +7,15 @@
   position: fixed;
   overflow: hidden;
   &__avatar {
-    width: 100px;
-    height: 120px;
+    width: 125px;
+    height: 125px;
     border-radius: 100%;
     box-shadow: var(--shadow-l1);
     margin-left: 30px;
-    &__dark {
-      border: 2px solid white;
-    }
     &__light {
+      border: 2px solid black;
+    }
+    &__dark {
       border: 2px solid white;
     }
   }
@@ -25,10 +25,10 @@
     cursor: pointer;
     margin-bottom: 30px;
     margin-left: 20px;
-    &__dark {
+    &__light {
       fill: black;
     }
-    &__light {
+    &__dark {
       fill: white;
     }
   }
@@ -40,10 +40,10 @@
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
     padding: 0 10px;
-    &__dark {
+    &__light {
       color: black;
     }
-    &__light {
+    &__dark {
       color: white;
     }
   }
@@ -52,10 +52,10 @@
     height: 10px;
     font-family: 'Courier New', Courier, monospace;
     margin-left: 20px;
-    &__dark {
+    &__light {
       color: black;
     }
-    &__light {
+    &__dark {
       color: white;
     }
   }
@@ -64,10 +64,10 @@
     font-family: 'Courier New', Courier, monospace;
     margin-bottom: 30px;
     margin-left: 20px;
-    &__dark {
+    &__light {
       color: black;
     }
-    &__light {
+    &__dark {
       color: white;
     }
   }

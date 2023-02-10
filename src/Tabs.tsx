@@ -13,7 +13,7 @@ import Projects from './Projects';
 import profile from './resources/profile.jpg';
 
 const Tabs = () => {
-  const [switchMode, setSwitchMode] = useState('dark');
+  const [switchMode, setSwitchMode] = useState('light');
   const tabs = [
     {
       title: 'About',
@@ -131,7 +131,7 @@ const Tabs = () => {
             </span>
           );
         })}
-        {switchMode === 'dark' ? (
+        {switchMode === 'light' ? (
           <span
             style={{
               display: 'flex',
@@ -140,13 +140,13 @@ const Tabs = () => {
           >
             <a
               onClick={() => {
-                setSwitchMode('light');
+                setSwitchMode('dark');
                 document.body.setAttribute('style', 'background: #303030;');
               }}
             >
-              <Switch className="tabs-wrapper__icon tabs-wrapper__icon__dark" />
+              <Switch className="tabs-wrapper__icon tabs-wrapper__icon__light" />
             </a>
-            <a className="tabs-wrapper__text tabs-wrapper__text__dark">
+            <a className="tabs-wrapper__text tabs-wrapper__text__light">
               Light Mode
             </a>
           </span>
@@ -159,7 +159,7 @@ const Tabs = () => {
           >
             <a
               onClick={() => {
-                setSwitchMode('dark');
+                setSwitchMode('light');
                 document.body.setAttribute('style', 'background:#F5F5FA');
               }}
             >
@@ -167,10 +167,10 @@ const Tabs = () => {
                 style={{
                   transform: 'rotateY(180deg)',
                 }}
-                className="tabs-wrapper__icon tabs-wrapper__icon__light"
+                className="tabs-wrapper__icon tabs-wrapper__icon__dark"
               />
             </a>
-            <a className="tabs-wrapper__text tabs-wrapper__text__light">
+            <a className="tabs-wrapper__text tabs-wrapper__text__dark">
               Dark Mode
             </a>
           </span>

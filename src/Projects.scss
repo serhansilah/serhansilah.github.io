@@ -20,11 +20,11 @@
     margin-bottom: 10px;
     border-radius: 20px;
 
-    &__dark {
+    &__light {
       background-color: white;
       color: black;
     }
-    &__light {
+    &__dark {
       background-color: #424242;
       color: white;
     }
@@ -37,17 +37,18 @@
     border: 1px solid;
   }
   &__icon {
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
     fill: white;
     cursor: pointer;
     background-color: #424242;
     margin-bottom: 10px;
-    &__dark {
+    display: flex;
+    &__light {
       background-color: white;
       fill: black;
     }
-    &__light {
+    &__dark {
       background-color: #424242;
       fill: white;
     }

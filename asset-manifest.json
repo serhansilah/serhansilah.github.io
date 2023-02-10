@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.e23e1f49.css",
-    "main.js": "/static/js/main.17868de3.js",
+    "main.js": "/static/js/main.adf5b718.js",
     "static/media/webapp.png": "/static/media/webapp.8e8905983c6589d9bee8.png",
     "static/media/robot.jpg": "/static/media/robot.4f616ee6fa4fb12d2908.jpg",
     "static/media/cv.pdf": "/static/media/cv.5fc3861d18c6ecdea448.pdf",
     "static/media/airbnb.jpg": "/static/media/airbnb.1c81b1b7e9c3f7cacd6e.jpg",
     "static/media/cycle.png": "/static/media/cycle.5486de5a2d3b008d9ee6.png",
-    "static/media/profile.jpg": "/static/media/profile.49c6ffdf99172370e547.jpg",
     "static/media/kaggle.png": "/static/media/kaggle.dff21ed630de484d7540.png",
     "static/media/CSR-and-DCSR-formats.png": "/static/media/CSR-and-DCSR-formats.d40bb2ea305a7bb05b3d.png",
+    "static/media/profile.jpg": "/static/media/profile.a23c848a8f060178fdf6.jpg",
     "static/media/home.svg": "/static/media/home.be455e753bd5b070134e62d4e9c8b35e.svg",
     "static/media/resume.svg": "/static/media/resume.a7aa65225f2ac3fea799231ba3614c21.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.5e6b079e54e6ecdc61795aa5e11108e6.svg",
@@ -20,10 +20,10 @@
     "index.html": "/index.html",
     "static/media/github.svg": "/static/media/github.1f8893e6f18b61b6ca02dbef14780261.svg",
     "main.e23e1f49.css.map": "/static/css/main.e23e1f49.css.map",
-    "main.17868de3.js.map": "/static/js/main.17868de3.js.map"
+    "main.adf5b718.js.map": "/static/js/main.adf5b718.js.map"
   },
   "entrypoints": [
     "static/css/main.e23e1f49.css",
-    "static/js/main.17868de3.js"
+    "static/js/main.adf5b718.js"
   ]
 }
